@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    margin-left: 20%;
+    /* background-color: black; */
+}
+.link1{
+    margin-left: 15%;
+}
+.fullnav{
+    background-color: black;
+}
+.content{
+    margin-left: 2%;
+}
+.footers{
+    height: 50px;
+    background-color: black;
+}
+.footers h4{
+    text-align: center;
+    text-size-adjust: 10px;
+}
+.innerContent h3{
+    margin-left: 40%;
+    color: rgb(60, 255, 0);
+    text-shadow: rgb(4, 46, 4) 2px;
+    
+}
+#chks{
+    color: blue;
+}

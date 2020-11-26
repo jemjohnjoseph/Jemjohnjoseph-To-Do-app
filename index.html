@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+
+    <link rel="stylesheet" href="css/loginstyle.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" >
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    <!-- form start -->
+    <section class="Form" style="margin-top: 5%;">
+        <form action="toDO.html"  onsubmit="return display()">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-7">
+                    <img src="image/BAG.jpg" alt="beauty image" class="img-fluid">
+                  
+                </div>
+                <div class="col-lg-5 px-3 pt-3s">
+                    <h2 class="font-weight-bold py-2" >My To-Do List</h2>
+                    <h6>Login and Do your To-Do</h6>
+                    <br>
+                    <br>
+                    <form>
+                        <div class="form-row">
+                            <div class="col-lg-9">
+                                <input type="text" placeholder="User ID" id="nameid" class="form-control my-3 p-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-9">
+                                <input type="password" placeholder="Password" id="psw" class="form-control my-3 p-4">
+
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="col-lg-9">
+                               <div><label for="msg" id="msg"></label></div>
+                               <label id="err"></label>
+                              
+                                <button type="submit" class="btn1 mt-3 mb-5">Log-In</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="log.js"></script>
+    </section>
+
+</body>
+</html> 
